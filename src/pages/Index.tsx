@@ -141,11 +141,16 @@ const Index = () => {
                 <span className="text-retro-secondary">Bots</span>
                 <span className="text-retro-accent">/&gt;</span>
               </h3>
-              <p className="text-white/60 mt-2">Grassdale High Coding & Robotics Club Fully Developed by Liam De Wet, Co-assiisant Briadon Fieleis</p>
+              <p className="text-white/60 mt-2">Grassdale High Coding & Robotics Club Fully Developed by Liam De Wet, Co-assistant Briadon Fielies</p>
             </div>
             
             <div className="flex gap-4">
               <a href="https://github.com/ANONYMOUSx46" className="text-white/60 hover:text-retro-accent transition-colors p-2">
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
+             <div className="flex gap-4">
+              <a href="https://github.com/anonymous545-lab" className="text-white/60 hover:text-retro-accent transition-colors p-2">
                 <Github className="w-5 h-5" />
               </a>
             </div>
