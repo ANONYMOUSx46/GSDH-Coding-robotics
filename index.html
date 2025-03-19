@@ -12,6 +12,27 @@
 
   <body>
     <div id="root"></div>
+  <!-- Hidden Form for Sign-Up -->
+    <form name="signup" data-netlify="true" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="text" name="age" />
+      <input type="text" name="grade" />
+      <input type="text" name="formType" />
+    </form>
+
+    <!-- Hidden Form for Quiz Results -->
+    <form name="quiz-results" data-netlify="true" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="text" name="age" />
+      <input type="text" name="grade" />
+      <input type="text" name="score" />
+      <input type="text" name="totalQuestions" />
+      <input type="text" name="percentage" />
+      <input type="text" name="userAnswers" />
+      <input type="text" name="formType" />
+    </form>
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
