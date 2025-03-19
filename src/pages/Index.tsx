@@ -141,7 +141,7 @@ const Index = () => {
                 <span className="text-retro-secondary">Bots</span>
                 <span className="text-retro-accent">/&gt;</span>
               </h3>
-              <p className="text-white/60 mt-2">Grassdale High Coding & Robotics Club</p>
+              <p className="text-white/60 mt-2">Grassdale High Coding & Robotics Club Fully Developed by Liam De Wet, Co-assiisant Briadon Fieleis</p>
             </div>
             
             <div className="flex gap-4">
